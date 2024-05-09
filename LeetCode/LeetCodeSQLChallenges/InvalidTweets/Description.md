@@ -2,12 +2,12 @@
 
 Table: `Tweets`
 
-+----------------+---------+
+
 | Column Name    | Type    |
-+----------------+---------+
+| :------------- | :------ |
 | tweet_id       | int     |
 | content        | varchar |
-+----------------+---------+
+
 tweet_id is the primary key (column with unique values) for this table.
 This table contains all the tweets in a social media app.
 
@@ -24,19 +24,19 @@ The result format is in the following example.
 **Input:**
 
 Tweets table:
-+----------+----------------------------------+
+
 | tweet_id | content                          |
-+----------+----------------------------------+
+| :------- | :------------------------------- |
 | 1        | Vote for Biden                   |
 | 2        | Let us make America great again! |
 
 **Output:**
 
-+----------+
+
 | tweet_id |
-+----------+
+| :------- |
 | 2        |
-+----------+
+
 
 **Explanation:** 
 Tweet 1 has length = 14. It is a valid tweet.
